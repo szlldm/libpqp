@@ -1,0 +1,160 @@
+/* Copyright (C) 2026 szlldm
+ * 
+ * LibPQP interface initializer list.
+ * This file is part of libpqp.
+ * 
+ * LibPQP is dual-licensed: you may use it under the terms of the
+ * GNU Affero General Public License version 3 (AGPLv3), or alternatively
+ * under a commercial license.
+ * You should have received a copy of the AGPLv3 license along with this
+ * program. If not, see <https://www.gnu.org/licenses/>.
+ * For commercial licensing, please contact.
+ */
+
+#ifdef LIBPQP_HAS_CAN1
+	PQP_ADD_INTERFACE( CAN1 )
+#endif
+#ifdef LIBPQP_HAS_CAN2
+	PQP_ADD_INTERFACE( CAN2 )
+#endif
+#ifdef LIBPQP_HAS_CAN3
+	PQP_ADD_INTERFACE( CAN3 )
+#endif
+#ifdef LIBPQP_HAS_CAN4
+	PQP_ADD_INTERFACE( CAN4 )
+#endif
+#ifdef LIBPQP_HAS_CAN5
+	PQP_ADD_INTERFACE( CAN5 )
+#endif
+#ifdef LIBPQP_HAS_CAN6
+	PQP_ADD_INTERFACE( CAN6 )
+#endif
+#ifdef LIBPQP_HAS_CAN7
+	PQP_ADD_INTERFACE( CAN7 )
+#endif
+#ifdef LIBPQP_HAS_CAN8
+	PQP_ADD_INTERFACE( CAN8 )
+#endif
+#ifdef LIBPQP_HAS_HDUPLEX_UART1
+	PQP_ADD_INTERFACE( HDUART1 )
+#endif
+#ifdef LIBPQP_HAS_HDUPLEX_UART2
+	PQP_ADD_INTERFACE( HDUART2 )
+#endif
+#ifdef LIBPQP_HAS_HDUPLEX_UART3
+	PQP_ADD_INTERFACE( HDUART3 )
+#endif
+#ifdef LIBPQP_HAS_HDUPLEX_UART4
+	PQP_ADD_INTERFACE( HDUART4 )
+#endif
+#ifdef LIBPQP_HAS_HDUPLEX_UART5
+	PQP_ADD_INTERFACE( HDUART5 )
+#endif
+#ifdef LIBPQP_HAS_HDUPLEX_UART6
+	PQP_ADD_INTERFACE( HDUART6 )
+#endif
+#ifdef LIBPQP_HAS_HDUPLEX_UART7
+	PQP_ADD_INTERFACE( HDUART7 )
+#endif
+#ifdef LIBPQP_HAS_HDUPLEX_UART8
+	PQP_ADD_INTERFACE( HDUART8 )
+#endif
+#ifdef LIBPQP_HAS_I2C1
+	PQP_ADD_INTERFACE( I2C1 )
+#endif
+#ifdef LIBPQP_HAS_I2C2
+	PQP_ADD_INTERFACE( I2C2 )
+#endif
+#ifdef LIBPQP_HAS_I2C3
+	PQP_ADD_INTERFACE( I2C3 )
+#endif
+#ifdef LIBPQP_HAS_I2C4
+	PQP_ADD_INTERFACE( I2C4 )
+#endif
+#ifdef LIBPQP_HAS_I2C5
+	PQP_ADD_INTERFACE( I2C5 )
+#endif
+#ifdef LIBPQP_HAS_I2C6
+	PQP_ADD_INTERFACE( I2C6 )
+#endif
+#ifdef LIBPQP_HAS_I2C7
+	PQP_ADD_INTERFACE( I2C7 )
+#endif
+#ifdef LIBPQP_HAS_I2C8
+	PQP_ADD_INTERFACE( I2C8 )
+#endif
+#ifdef LIBPQP_HAS_FDUPLEX_UART1
+	PQP_ADD_INTERFACE( FDUART1 )
+#endif
+#ifdef LIBPQP_HAS_FDUPLEX_UART2
+	PQP_ADD_INTERFACE( FDUART2 )
+#endif
+#ifdef LIBPQP_HAS_FDUPLEX_UART3
+	PQP_ADD_INTERFACE( FDUART3 )
+#endif
+#ifdef LIBPQP_HAS_FDUPLEX_UART4
+	PQP_ADD_INTERFACE( FDUART4 )
+#endif
+#ifdef LIBPQP_HAS_FDUPLEX_UART5
+	PQP_ADD_INTERFACE( FDUART5 )
+#endif
+#ifdef LIBPQP_HAS_FDUPLEX_UART6
+	PQP_ADD_INTERFACE( FDUART6 )
+#endif
+#ifdef LIBPQP_HAS_FDUPLEX_UART7
+	PQP_ADD_INTERFACE( FDUART7 )
+#endif
+#ifdef LIBPQP_HAS_FDUPLEX_UART8
+	PQP_ADD_INTERFACE( FDUART8 )
+#endif
+#ifdef LIBPQP_HAS_RAW1
+	PQP_ADD_INTERFACE( RAW1 )
+#endif
+#ifdef LIBPQP_HAS_RAW2
+	PQP_ADD_INTERFACE( RAW2 )
+#endif
+#ifdef LIBPQP_HAS_RAW3
+	PQP_ADD_INTERFACE( RAW3 )
+#endif
+#ifdef LIBPQP_HAS_RAW4
+	PQP_ADD_INTERFACE( RAW4 )
+#endif
+#ifdef LIBPQP_HAS_RAW5
+	PQP_ADD_INTERFACE( RAW5 )
+#endif
+#ifdef LIBPQP_HAS_RAW6
+	PQP_ADD_INTERFACE( RAW6 )
+#endif
+#ifdef LIBPQP_HAS_RAW7
+	PQP_ADD_INTERFACE( RAW7 )
+#endif
+#ifdef LIBPQP_HAS_RAW8
+	PQP_ADD_INTERFACE( RAW8 )
+#endif
+#ifdef LIBPQP_HAS_PIPE1
+	PQP_ADD_INTERFACE( PIPE1 )
+#endif
+#ifdef LIBPQP_HAS_PIPE2
+	PQP_ADD_INTERFACE( PIPE2 )
+#endif
+#ifdef LIBPQP_HAS_PIPE3
+	PQP_ADD_INTERFACE( PIPE3 )
+#endif
+#ifdef LIBPQP_HAS_PIPE4
+	PQP_ADD_INTERFACE( PIPE4 )
+#endif
+#ifdef LIBPQP_HAS_PIPE5
+	PQP_ADD_INTERFACE( PIPE5 )
+#endif
+#ifdef LIBPQP_HAS_PIPE6
+	PQP_ADD_INTERFACE( PIPE6 )
+#endif
+#ifdef LIBPQP_HAS_PIPE7
+	PQP_ADD_INTERFACE( PIPE7 )
+#endif
+#ifdef LIBPQP_HAS_PIPE8
+	PQP_ADD_INTERFACE( PIPE8 )
+#endif
+#ifdef LIBPQP_HAS_STDIOIF
+	PQP_ADD_INTERFACE( STDIOIF )
+#endif
